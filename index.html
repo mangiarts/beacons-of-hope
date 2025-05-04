@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Community Event</title>
+  <style>
+    body {
+      background-color: #f9fafb;
+      color: #1f2937;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h2, h3 {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .hexagon {
+      clip-path: polygon(
+        50% 0%, 
+        93% 25%, 
+        93% 75%, 
+        50% 100%, 
+        7% 75%, 
+        7% 25%
+      );
+    }
+
+    .hero {
+      background-color: #fef3c7;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #1e3a8a;
+      font-weight: bold;
+    }
+
+    .hero p {
+      margin-top: 1rem;
+      font-size: 1.125rem;
+      color: #374151;
+    }
+
+    .hero span {
+      color: #ca8a04;
+      font-weight: 600;
+    }
+
+    .hero a {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #2563eb;
+      color: white;
+      font-weight: 600;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .hero a:hover {
+      background-color: #1d4ed8;
+    }
+
+    .about {
+      padding: 4rem 1rem;
+      background-color: white;
+      text-align: center;
+    }
+
+    .about h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      max-width: 700px;
+      margin: 0 auto;
+      color: #4b5563;
+    }
+
+    .activities {
+      padding: 4rem 1rem;
+      background-image: url('image.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .activities h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 3rem;
+      color: #fcfdff;
+    }
+
+    .activity-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2.5rem;
+    }
+
+    .hexagon-card {
+      width: 12rem;
+      height: 13rem;
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      position: relative;
+    }
+
+    .hexagon-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: 1rem;
+    }
+
+    .hexagon-content h3 {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-bottom: 0.25rem;
+    }
+
+    .hexagon-content p {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    .donation {
+      background-color: #fefce8;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .donation h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .donation p {
+      margin-bottom: 0.75rem;
+      color: #374151;
+    }
+
+    .donation span {
+      color: #1d4ed8;
+    }
+
+    .contact {
+      background-color: #1f2937;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .contact a:hover {
+      color: #facc15;
+    }
+
+    footer {
+      background-color: #111827;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div>
+      <h1>Join Our Charity Community</h1>
+      <p>Beacons of Hope & Dreamspot Adventure invite you to <span>spread the love</span> and make a difference!</p>
+      <p>Event Date: <span>18th May</span></p>
+      <p>Damages: <span>Ksh 1800</span> | Deposit: <span>Ksh 500</span></p>
+      <a href="#contact">Join Us</a>
+    </div>
+  </section>
+
+  <!-- About / Info Section -->
+  <section class="about">
+    <div>
+      <h2>Why Join?</h2>
+      <p>Whether you're an individual or a business, your participation will help bring joy and hope to children at Hope Patience and Joy Children's Home (Gilgil).</p>
+    </div>
+  </section>
+
+  <!-- Activities Section -->
+  <section class="activities">
+    <div>
+      <h2>Activities</h2>
+      <div class="activity-container">
+
+        <div class="hexagon hexagon-card">
+          <div class="hexagon-content">
+            <h3>Cooking</h3>
+            <p>Prepare and share meals with the community.</p>
+          </div>
+        </div>
+
+        <div class="hexagon hexagon-card">
+          <div class="hexagon-content">
+            <h3>Football Match</h3>
+            <p>Enjoy a friendly game and bond with others.</p>
+          </div>
+        </div>
+
+        <div class="hexagon hexagon-card">
+          <div class="hexagon-content">
+            <h3>Dancing</h3>
+            <p>Celebrate through music and movement.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation Info -->
+  <section class="donation">
+    <div>
+      <h2>Support the Cause</h2>
+      <p>Donations are allowed and greatly appreciated!</p>
+      <p>Paybill: <span>522522</span></p>
+      <p>Account No: <span>1292360917</span></p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div>
+      <h2>Get in Touch</h2>
+      <p>📍 Hope Patience and Joy Children's Home, Gilgil</p>
+      <p>📞 <a href="tel:+254790299630">+254 790 299 630</a> - Jose</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Beacons of Hope & Dreamspot Adventure. All rights reserved.
+  </footer>
+
+</body>
+</html>
